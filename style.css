@@ -1,0 +1,40 @@
+/* This is a comment in CSS */
+
+/* Define a style for all the <p> elements */
+p {
+  color: black;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* Define a style for all the <h1> elements */
+h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Define a style for a class named "button" */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  border-radius: 5px;
+}
+
+/* Define a style for an ID named "header" */
+#header {
+  background-color: gray;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Define a style for an element with the attribute "disabled" */
+[disabled] {
+  opacity: 0.5;
+}
